@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medical Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./mediaQ.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!--  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
+
+  <body>
+    <a href="#"><img id="arrow" src="./arr-top.png"></a>
+    <!-- ====================== [Search Page] ====================== -->
+    <div id="search-page">
+      <div class="container">
+        <i class="fa-solid fa-square-xmark" id="close-search"></i>
+        <form action="">
+          <input
+            type="text"
+            placeholder="Search"
+            id="search-inp"
+            autocomplete="off"
+          />
+          <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+      </div>
+    </div>
+
+    <!-- ====================== [NavBar] ====================== -->
+    <nav>
+      <div class="left">LOGO</div>
+      <div class="right">
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#doctors">Doctors</a>
+          <a href="#services">Services</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <!-- icon for phone -->
+        <i class="fa-solid fa-bars" id="bars-icon"></i>
+
+        <i class="fa-solid fa-magnifying-glass" id="search"></i>
+      </div>
+    </nav>
+    <!-- nav for phone -->
+    <div id="menu-phone">
+      <i class="fa-solid fa-square-xmark" id="close-nav-phone"></i>
+      <div class="links-phone">
+        <a href="#">Home</a>
+        <a href="#">Doctors</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+
+    <!-- ====================== [Home] ====================== -->
+    <section id="home">
+      <div class="doc">
+        <div class="left">
+          <h1>Dr. Ahmed Mahmoud</h1>
+          <h3>
+            Specialist in plastic surgary<br />Expreines for five years in this
+            field
+          </h3>
+          <div class="btn">Make Apointment</div>
+          <div class="phone">
+            <i class="fa-solid fa-phone"></i>
+            <span>+02121165779</span>
+          </div>
+        </div>
+        <img src="./doc1.png" alt="" class="right" />
+        <div class="slider">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== [Catego] ====================== -->
+    <section id="catego">
+      <div class="title">Categories</div>
+      <div class="container">
+        <div class="card" data-aos="fade-up">
+          <i class="fa-solid fa-baby icon"></i>
+          <h2>Obstetrician<br />Gynecologist</h2>
+
+          <div class="learn">
+            Learn more <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <i class="fa-solid fa-lungs icon"></i>
+          <h2>Obstetrician<br />Gynecologist</h2>
+
+          <div class="learn">
+            Learn more <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <i class="fa-solid fa-microscope icon"></i>
+          <h2>Obstetrician<br />Gynecologist</h2>
+
+          <div class="learn">
+            Learn more <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up">
+          <i class="fa-solid fa-tooth icon"></i>
+          <h2>Obstetrician<br />Gynecologist</h2>
+
+          <div class="learn">
+            Learn more <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== [Emerg] ====================== -->
+    <section id="emerg">
+      <div class="left">
+        <div class="top">
+          <img src="./24h.png" alt="" />
+          <h1>Emergency<br />Medical Care</h1>
+        </div>
+        <div class="med">
+          Lorem ipsum dolor amet consectetur,<br />adipisicing elit.
+          Consequuntur blanditiis<br />dolores rem consectetur<br />cumque
+          voluptas sed sit amet?
+        </div>
+        <div class="bottom">
+          <i class="fa-solid fa-phone"></i>
+          <span>76943</span>
+        </div>
+      </div>
+      <img src="./sec3.png" class="right" />
+    </section>
+
+    <!-- ====================== [Services] ====================== -->
+    <section id="services">
+      <div class="title">Our Services</div>
+      <div class="container">
+        <div class="left">
+          <div class="one" data-aos="zoom-in-right">
+            <h2>Lorem apsum</h2>
+            <div class="p">
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit.
+              Officiis mollitia<br />
+              hic omnis voluptates. Aperiam numquam<br />corporis facere eum
+              unde.
+            </div>
+          </div>
+          <div class="two" data-aos="zoom-in-right">
+            <h2>Lorem apsum</h2>
+            <div class="p">
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit.
+              Officiis mollitia<br />
+              hic omnis voluptates. Aperiam numquam<br />corporis facere eum
+              unde.
+            </div>
+          </div>
+          <div class="three" data-aos="zoom-in-right">
+            <h2>Lorem apsum</h2>
+            <div class="p">
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit.
+              Officiis mollitia<br />
+              hic omnis voluptates. Aperiam numquam<br />corporis facere eum
+              unde.
+            </div>
+          </div>
+        </div>
+
+        <img src="./ourServices.png" alt="" class="med" />
+
+        <div class="right">
+          <div class="four" data-aos="zoom-in-left">
+            <h2>Lorem apsum</h2>
+            <div class="p">
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit.
+              Officiis mollitia<br />
+              hic omnis voluptates. Aperiam numquam<br />corporis facere eum
+              unde.
+            </div>
+          </div>
+          <div class="five" data-aos="zoom-in-left">
+            <h2>Lorem apsum</h2>
+            <div class="p">
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit.
+              Officiis mollitia<br />
+              hic omnis voluptates. Aperiam numquam<br />corporis facere eum
+              unde.
+            </div>
+          </div>
+          <div class="six" data-aos="zoom-in-left">
+            <h2>Lorem apsum</h2>
+            <div class="p">
+              Lorem ipsum dolor sit amet consectetur<br />adipisicing elit.
+              Officiis mollitia<br />
+              hic omnis voluptates. Aperiam numquam<br />corporis facere eum
+              unde.
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== [Doctors] ====================== -->
+    <section id="doctors">
+      <div class="title">Doctors</div>
+      <div class="container">
+        <div class="doc" data-aos="fade-left">
+          <div class="top">
+            <img src="./doc1-sec5.png" />
+          </div>
+          <div class="bottom">
+            <h1>Dr.Ahmed Mahmoud</h1>
+            <h4>X-rays</h4>
+          </div>
+        </div>
+        <!--  -->
+        <div class="doc" data-aos="fade-up">
+          <div class="top tp2">
+            <img src="./doc2-sec5.png" />
+          </div>
+          <div class="bottom">
+            <h1>Dr.Samed Abdelsalam</h1>
+            <h4>X-rays</h4>
+          </div>
+        </div>
+        <!--  -->
+        <div class="doc" data-aos="fade-up">
+          <div class="top tp3">
+            <img src="./doc3-sec5.png" />
+          </div>
+          <div class="bottom">
+            <h1>Dr.Sara Hossam</h1>
+            <h4>X-rays</h4>
+          </div>
+        </div>
+        <!--  -->
+        <div class="doc" data-aos="fade-right">
+          <div class="top tp4">
+            <img src="./doc4-sec5.png" />
+          </div>
+          <div class="bottom">
+            <h1>Dr.Mohamed Salah</h1>
+            <h4>X-rays</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================== [Testi] ====================== -->
+    <section id="Testi">
+      <div class="title">Testimontails</div>
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide" data-aos="fade-up">
+            <div class="top">
+             
+              Lorem ipsum dolor sit amet consectetur<br />
+              adipisicing elit. Quibusdam deleniti autem a <br />
+              provident ab praesentium optio voluptate? Odit <br />
+              distinctio aut ullam quaerat
+              <span>
+                <img src="./prof1.png" />
+                <h4>Ahmed Mahmoud</h4>
+              </span>
+            </div>
+          </div>
+          <div class="swiper-slide" data-aos="fade-up">
+            <div class="top">
+             
+              Lorem ipsum dolor sit amet consectetur<br />
+              adipisicing elit. Quibusdam deleniti autem a <br />
+              provident ab praesentium optio voluptate? Odit <br />
+              distinctio aut ullam quaerat
+              <span>
+                <img src="./prof2.png" />
+                <h4>Salah Mohamed</h4>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+
+
+
+<!-- ====================== [Contact] ====================== -->
+<section id="contact">
+  <div class="container" data-aos="zoom-in-up">
+    <div class="top">
+      <h1>Subscribe to Newsletter</h1>
+      <p>Stay up to date with our latest new, updates and special offers</p>
+    </div>
+    <form action="">
+      <input type="email" placeholder="Enter your email address">
+      <button>Send Now</button>
+    </form>
+  </div>
+</section>
+
+
+
+
+<!-- ====================== [Footer] ====================== -->
+<footer>
+  <div class="container">
+    <div class="top">
+    <div class="left">
+      <div class="tit">Lorem Apsume</div>
+      <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Quae quibusdam dolorem ex,<br> dolores cupiditate consectetur minima ab<br> suscipit doloremque perspiciatis? Ex nobis vitae<br> laboriosam!</p>
+    </div>
+    <div class="center">LOGO</div>
+    <div class="right">
+      <div class="tit">Lorem Apsume</div>
+      <p>Lorem ipsum dolor sit amet, consectetur <br>adipisicing elit. Quae quibusdam dolorem ex,<br> dolores cupiditate consectetur minima ab<br> suscipit doloremque perspiciatis? Ex nobis vitae<br> laboriosam!</p>
+    </div>
+  </div>
+  <div class="bottom">2022. Ahmed Mahmoud .Medical Project .FCAI</div>
+  </div>
+</footer>
+
+
+
+
+
+
+    <!-- ====================== [Scripts] ====================== -->
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>
